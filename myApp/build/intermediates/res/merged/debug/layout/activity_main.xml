@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    
+    <include  
+        android:id="@+id/id_ly_bottombar"  
+        android:layout_width="match_parent"
+        android:layout_height="55dp"  
+        android:layout_alignParentBottom="true"  
+        layout="@layout/bottombar" />  
+        
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/id_ly_bottombar"
+        
+        />
+    
+    <!-->FrameLayout 
+        android:id="@+id/fragmentId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/id_ly_bottombar"  
+        
+        /-->
+    
+  
+
+</RelativeLayout>
+<!-- From: file:/D:/android_repository/MyApplication/myApp/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    
+	<LinearLayout
+	    android:id="@+id/homeId"
+	    android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/homeImageId"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:src="@drawable/tab_home_icon"
+	        
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/homeNameId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="首页"
+	        />
+	    
+	    
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:id="@+id/findId"
+	    android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/findImageId"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:src="@drawable/tab_find_icon"
+	        
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/findNameId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="发现"
+	        />
+	    
+	    
+	</LinearLayout>
+	
+	
+	<LinearLayout
+	    android:id="@+id/settingId"
+	    android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+	    >
+	    
+	    <ImageView 
+	        android:id="@+id/settingImageId"
+	        android:layout_width="25dp"
+	        android:layout_height="25dp"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:src="@drawable/tab_my_center_icon"
+	        
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/settingNameId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="我的"
+	        />
+	    
+	    
+	</LinearLayout>
+  
+    
+  
+    
+
+</LinearLayout>

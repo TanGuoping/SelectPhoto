@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+    <com.tan.base.BasicTitle  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        
+        
+    </com.tan.base.BasicTitle >
+    
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+         />
+        
+    </ScrollView>
+ 
+        
+
+
+</LinearLayout>
+<!-- From: file:/D:/android_repository/MyApplication/myApp/src/main/res/layout/content.xml -->

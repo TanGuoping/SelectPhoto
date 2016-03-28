@@ -1,0 +1,15 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item><shape>
+<solid android:color="#00BFFF" />
+
+<stroke android:width="0dp" android:color="#00BFFF"   />
+
+<corners 
+    android:bottomLeftRadius="6dp" android:bottomRightRadius="6dp" android:topLeftRadius="6dp" android:topRightRadius="6dp"
+    />
+</shape></item>
+
+</selector> 
+<!-- From: file:/D:/android_repository/MyApplication/myApp/src/main/res/drawable-mdpi/start.xml -->

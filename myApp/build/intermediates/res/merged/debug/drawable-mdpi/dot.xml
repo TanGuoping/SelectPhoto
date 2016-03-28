@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/splash_dot_on" android:state_enabled="true"/>
+    <item android:drawable="@drawable/splash_dot_off" android:state_enabled="false"/>
+</selector>
+<!-- From: file:/D:/android_repository/MyApplication/myApp/src/main/res/drawable-mdpi/dot.xml -->
